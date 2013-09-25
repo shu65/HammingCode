@@ -1,0 +1,4 @@
+HammingCode
+===========
+
+Hamming Code 
