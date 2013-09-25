@@ -90,7 +90,6 @@ int HammingCoder::Correct(Matrix &data, Matrix *corrected_data) {
 }
 
 int HammingCoder::Decode(Matrix &encoded_data, Matrix *data) {
-	Matrix::Print(std::cout, receiver_matrix_);
 	return Matrix::Multiply(receiver_matrix_, encoded_data, data);
 }
 
